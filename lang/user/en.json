@@ -1,7 +1,7 @@
 {
   "$quartz": {
     "data": {
-      "User": {
+      "user": {
         "name": "User",
         "description": "User",
         "attributes": {
