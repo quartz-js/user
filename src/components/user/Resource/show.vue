@@ -2,6 +2,7 @@
   <q-resource-show v-bind="$attrs">
     <template slot="show" slot-scope="scope">
       <q-text :resource="scope.resource" :attribute="scope.config.getAttribute('name')" />
+      <q-text :resource="scope.resource" :attribute="scope.config.getAttribute('email')" />
     </template>
     <template slot='actions' slot-scope="scope">
       <edit :resource="scope.resource" v-bind="$attrs"/>

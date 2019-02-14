@@ -9,6 +9,8 @@ export default new Manager({
   attributes: [
     new Attributes.Id(),
     new Attributes.Base('name'),
+    new Attributes.Base('email'),
+    new Attributes.Base('password'),
     new Attributes.DateTime('created_at'),
     new Attributes.DateTime('updated_at')
   ]
