@@ -1,0 +1,16 @@
+{
+  "$quartz": {
+    "data": {
+      "User": {
+        "name": "User",
+        "description": "User",
+        "attributes": {
+          "name": {
+            "label": "name",
+            "description": "Identify the record by a human-readable string"
+          }
+        }
+      }
+    }
+  }  
+}
