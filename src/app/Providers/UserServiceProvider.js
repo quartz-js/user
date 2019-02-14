@@ -4,7 +4,6 @@ import { container } from '@railken/quartz-core'
 export class UserServiceProvider extends ServiceProvider {
   register() {
 
-    console.log(container);
     this.addRoutes(require('./../../routes/user.js'))
 
     this.addData({

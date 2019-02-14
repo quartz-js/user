@@ -10,7 +10,7 @@ import user from '../../app/Managers/UserManager'
 export default {
   data () {
     return {
-      user: user
+      config: user
     }
   }
 }
