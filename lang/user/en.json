@@ -3,7 +3,7 @@
     "data": {
       "user": {
         "name": "User",
-        "description": "User",
+        "description": "Credentials and Authentications",
         "attributes": {
           "name": {
             "label": "name",
