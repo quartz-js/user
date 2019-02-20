@@ -8,7 +8,7 @@ export class UserServiceProvider extends ServiceProvider {
 
     this.addData({
       name: 'user',
-      description: 'Configure your application',
+      icon: require('../../assets/user-icon.svg'),
       tags: ['data'],
       route: { name: 'users.index' },
     })
