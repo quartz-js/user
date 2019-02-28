@@ -6,8 +6,16 @@
         "description": "Credentials and Authentications",
         "attributes": {
           "name": {
-            "label": "name",
-            "description": "Identify the record by a human-readable string"
+            "label": "Name",
+            "description": "How shall we call him/her?"
+          },
+          "email": {
+            "label": "Email",
+            "description": "The Email used for the authentication process"
+          },
+          "password": {
+            "label": "Password",
+            "description": "A secret word or phrase used for the authentication process"
           }
         }
       }

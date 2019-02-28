@@ -2,12 +2,20 @@
   "$quartz": {
     "data": {
       "user": {
-        "name": "User",
-        "description": "User",
+        "name": "Utente",
+        "description": "Credenziali e autenticazione",
         "attributes": {
           "name": {
-            "label": "name",
-            "description": "Identify the record by a human-readable string"
+            "label": "Nome",
+            "description": "Come possiamo chiamarlo?"
+          },
+          "email": {
+            "label": "Email",
+            "description": "L'email usata per il processo di autenticazione"
+          },
+          "password": {
+            "label": "Password",
+            "description": "Una parola o frase segreta usata per il processo di autenticazione"
           }
         }
       }
