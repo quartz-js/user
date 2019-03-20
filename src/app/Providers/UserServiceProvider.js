@@ -11,6 +11,7 @@ export class UserServiceProvider extends ServiceProvider {
       icon: require('../../assets/user-icon.svg'),
       tags: ['data'],
       route: { name: 'users.index' },
+      priority: 1
     })
 
     this.addLang({
