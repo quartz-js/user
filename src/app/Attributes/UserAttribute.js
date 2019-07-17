@@ -1,4 +1,4 @@
-import { Attributes } from '@railken/quartz-core'
+import { Attributes } from '@quartz/core'
 import { UserApi } from './../Api/UserApi'
 
 export class UserAttribute extends Attributes.BelongsTo {

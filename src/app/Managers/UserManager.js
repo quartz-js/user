@@ -1,5 +1,5 @@
 import { UserApi } from '../Api/UserApi'
-import { Attributes, Manager } from '@railken/quartz-core'
+import { Attributes, Manager } from '@quartz/core'
 
 export default new Manager({
   name: 'user',
